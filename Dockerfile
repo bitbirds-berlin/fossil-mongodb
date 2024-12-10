@@ -1,4 +1,4 @@
-FROM mongo:5.0.29
+FROM mongo:8.0.4
 
 COPY backup.sh /opt/backup.sh
 COPY prune.sh /opt/prune.sh
